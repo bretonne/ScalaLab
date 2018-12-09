@@ -6,4 +6,5 @@ build
 .idea
 venv/
 lib/
+out/
 *.DS_STORE
