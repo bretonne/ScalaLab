@@ -1,0 +1,10 @@
+build
+.gradle
+.settings
+.classpath
+.project
+.idea
+venv/
+lib/
+out/
+*.DS_STORE
