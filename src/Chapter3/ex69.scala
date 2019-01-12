@@ -18,16 +18,6 @@ object ex69  extends App {
   var pi = 0
   val indexes : List[Int] = 0 until 14 toList
 
-  indexes.map { match {
-    case 0 => pi += 3
-    case i % 2 > 0 => pi += getTermByApprominationNumber(i)
-    case i % 2 == 0 => pi -= getTermByApprominationNumber(i)
-  }
-
-    printf(f"$i  $pi%.5f")
-  }
-
-
   def getTermByApprominationNumber(i:Int): Float =
   {
     val denomitor = 2*i
