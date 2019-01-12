@@ -9,7 +9,7 @@
 //# units in your prompt and output message; either feet or meters, depending on which
 //# unit you are more comfortable working with.
 
-object ex3  extends App{
+object ex4  extends App{
   val SQUARE_FEET_PER_ACRE = 43560
 
   val len = args(0).toFloat
