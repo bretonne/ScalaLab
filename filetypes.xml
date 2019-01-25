@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="insert_crew_properties.sql" type="SQL" />
+      <mapping pattern="CrewSequence-sa-cabin-dutyTimeChanged.xml" type="XML" />
       <mapping pattern="CrewSequence-cabin-sa" type="XML" />
     </extensionMap>
   </component>
